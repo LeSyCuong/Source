@@ -1,0 +1,59 @@
+[12-Sep-2024 17:44:29 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/2002): Can't connect to server on '14.225.210.89' (115) in /home/tlbbdonl/public_html/config/config.php on line 8
+[12-Sep-2024 18:45:19 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/2002): Can't connect to server on '14.225.210.89' (115) in /home/tlbbdonl/public_html/config/config.php on line 8
+[21-Sep-2024 18:48:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[21-Sep-2024 21:24:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 00:00:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 10:12:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 10:12:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 10:41:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 15:51:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 16:42:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 16:42:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 22:23:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 22:33:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[22-Sep-2024 23:42:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[23-Sep-2024 16:48:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[23-Sep-2024 20:50:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[23-Sep-2024 23:07:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[24-Sep-2024 00:41:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[24-Sep-2024 21:18:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[24-Sep-2024 21:18:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[24-Sep-2024 23:03:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 13:24:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 14:04:50 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 15:31:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 17:31:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 17:53:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 20:29:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[25-Sep-2024 20:54:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::query(): (HY000/1030): Got error 1877 &quot;Unknown error&quot; from storage engine InnoDB in /home/langnamo/public_html/muado/vukhi/vk-tc.php on line 127
+[25-Sep-2024 20:54:20 Asia/Ho_Chi_Minh] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/langnamo/public_html/muado/vukhi/vk-tc.php on line 129
+[25-Sep-2024 21:00:18 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::query(): (HY000/1030): Got error 1877 &quot;Unknown error&quot; from storage engine InnoDB in /home/langnamo/public_html/muado/vukhi/vk-tc.php on line 127
+[25-Sep-2024 21:00:18 Asia/Ho_Chi_Minh] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/langnamo/public_html/muado/vukhi/vk-tc.php on line 129
+[26-Sep-2024 12:29:50 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[26-Sep-2024 13:01:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[26-Sep-2024 13:01:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[26-Sep-2024 14:01:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[26-Sep-2024 18:31:50 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[26-Sep-2024 20:09:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[26-Sep-2024 21:00:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[27-Sep-2024 08:57:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[27-Sep-2024 08:58:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[27-Sep-2024 10:28:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[27-Sep-2024 17:55:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[27-Sep-2024 20:30:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[29-Sep-2024 00:14:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[30-Sep-2024 20:53:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 160
+[07-Oct-2024 02:06:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[07-Oct-2024 03:25:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[07-Oct-2024 18:55:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[07-Oct-2024 19:49:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[07-Oct-2024 22:18:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[08-Oct-2024 23:13:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[13-Oct-2024 05:33:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[13-Oct-2024 05:33:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[13-Oct-2024 05:40:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[17-Oct-2024 23:29:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[17-Oct-2024 23:30:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[18-Oct-2024 06:57:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 172
+[20-Oct-2024 01:01:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 196
+[21-Oct-2024 00:10:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: _login2 in /home/langnamo/public_html/config/foot.php on line 196

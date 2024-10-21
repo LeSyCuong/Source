@@ -1,0 +1,110 @@
+Header set Access-Control-Allow-Origin *
+Options All -Indexes
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 404 /404.php
+
+# Cấu hình giới hạn lưu lượng từ một IP
+<IfModule mod_bw.c>
+    LimitRequestBody 1024000
+    LimitRequestFields 50
+    LimitRequestFieldSize 4094
+</IfModule>
+
+
+
+
+# CONFIG
+RewriteRule ^hso$ /index.php [L]
+RewriteRule ^head$ /client/head.php [L]
+RewriteRule ^foot$ /client/foot.php [L]
+RewriteRule ^index$ /index.php [L]
+RewriteRule ^nso$ /trangchu/nso/index.php [L]
+RewriteRule ^nro$ /trangchu/nro/index.php [L]
+RewriteRule ^hd-jar$ /trangchu/nro/hd-jar.php [L]
+RewriteRule ^dangky-nro$ /trangchu/nro/dangky.php [L]
+RewriteRule ^dangnhap-nro$ /trangchu/nro/dangnhap.php [L]
+RewriteRule ^pr-nro$ /trangchu/nro/pr.php [L]
+RewriteRule ^logout-nro$ /trangchu/nro/logout.php [L]
+RewriteRule ^naptien-nro$ /trangchu/nro/naptien.php [L]
+RewriteRule ^dmk-nro$ /trangchu/nro/doimatkhau.php [L]
+RewriteRule ^htth$ /trangchu/htth/index.php [L]
+RewriteRule ^hso$ /index-hso.php [L]
+RewriteRule ^taive-nso$ /trangchu/nso/taive.php [L]
+RewriteRule ^taive-htth$ /trangchu/htth/taive.php [L]
+RewriteRule ^dangky-nso$ /trangchu/nso/dangky.php [L]
+RewriteRule ^dangky-htth$ /trangchu/htth/dangky.php [L]
+RewriteRule ^dangnhap-htth$ /trangchu/htth/dangnhap.php [L]
+RewriteRule ^dangnhap-nso$ /trangchu/nso/dangnhap.php [L]
+RewriteRule ^nap-htth$ /trangchu/htth/naptien.php [L]
+RewriteRule ^nap-nso$ /trangchu/nso/naptien.php [L]
+RewriteRule ^pr-nso$ /trangchu/nso/pr.php [L]
+RewriteRule ^pr-htth$ /trangchu/htth/pr.php [L]
+RewriteRule ^dmk-htth$ /trangchu/htth/doimatkhau.php [L]
+RewriteRule ^dmk-nso$ /trangchu/nso/doimatkhau.php [L]
+RewriteRule ^gifcode-nso$ /trangchu/nso/gifcode.php [L]
+RewriteRule ^hd-htth$ /trangchu/htth/huongdan.php [L]
+RewriteRule ^logout-htth$ /trangchu/htth/logout.php [L]
+RewriteRule ^logout-nso$ /trangchu/nso/logout.php [L]
+RewriteRule ^logout-hso$ /client/logout.php [L]
+
+# CLIENT
+RewriteRule ^cuong692003$ /client/bangtop/cuong692003.php [L]
+RewriteRule ^gifcode$ /client/gifcode.php [L]
+RewriteRule ^doiclass$ /client/doiclass.php [L]
+RewriteRule ^dangnhap-sv1$ /client/dangnhap-sv1.php [L]
+RewriteRule ^dangky-sv1$ /client/dangky-sv1.php [L]
+RewriteRule ^dangnhap-sv2$ /client/dangnhap-sv2.php [L]
+RewriteRule ^dangky-sv2$ /client/dangky-sv2.php [L]
+RewriteRule ^napatm$ /client/napatm.php [L]
+RewriteRule ^huongdan$ /client/huongdan/huongdan.php [L]
+RewriteRule ^hd-meday$ /client/huongdan/hd-meday.php [L]
+RewriteRule ^sukien$ /client/sukien/sukien.php [L]
+RewriteRule ^top-cs$ /client/sukien/top-cs.php [L]
+RewriteRule ^top-lv-m$ /client/sukien/top-lv-m.php [L]
+RewriteRule ^top-sen$ /client/sukien/top-sen.php [L]
+RewriteRule ^top-dg$ /client/sukien/top-dg.php [L]
+RewriteRule ^quatop$ /client/quatop.php [L]
+RewriteRule ^bangtop$ /client/bangtop/bangtop.php [L]
+RewriteRule ^taigame$ /client/taigame.php [L]
+RewriteRule ^profile$ /client/profile.php [L]
+RewriteRule ^login$ /client/login.php [L]
+RewriteRule ^doimatkhau$ /client/doimatkhau.php [L]
+RewriteRule ^topnap$ /client/bangtop/top-nap.php [L]
+RewriteRule ^topct$ /client/bangtop/top-ct.php [L]
+RewriteRule ^toplv$ /client/bangtop/top-lv.php [L][L]
+RewriteRule ^toplv-moi$ /client/bangtop/top-lv-moi.php [L]
+RewriteRule ^topcs$ /client/bangtop/top-cs.php [L]
+
+# muado
+RewriteRule ^canh-tc$ /muado/canh/canh-tc.php [L]
+RewriteRule ^canh-pt$ /muado/canh/canh-pt.php [L]
+RewriteRule ^vk-tc$ /muado/vukhi/vk-tc.php [L]
+RewriteRule ^vk-pt$ /muado/vukhi/vk-pt.php [L]
+RewriteRule ^kc-pt$ /muado/thekimcuong/the-pt.php [L]
+RewriteRule ^kc-tc$ /muado/thekimcuong/the-tc.php [L]
+RewriteRule ^meday-cb$ /muado/meday/meday-cb.php [L]
+RewriteRule ^meday-st$ /muado/meday/meday-st.php [L]
+RewriteRule ^meday-ps$ /muado/meday/meday-ps.php [L]
+RewriteRule ^meday-xt$ /muado/meday/meday-xt.php [L]
+RewriteRule ^meday-cb-free$ /muado/meday/meday-cb-free.php [L]
+RewriteRule ^meday-ps-free$ /muado/meday/meday-ps-free.php [L]
+RewriteRule ^meday-st-free$ /muado/meday/meday-st-free.php [L]
+RewriteRule ^meday-xt-free$ /muado/meday/meday-xt-free.php [L]
+RewriteRule ^webshop$ /muado/muado.php [L]
+RewriteRule ^webshop-free$ /muado/muado-free.php [L]
+RewriteRule ^lichsumuado$ /muado/lichsumuado.php [L]
+RewriteRule ^trangbitinhtu$ /muado/trangbitinhtu.php [L]
+
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
